@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+/* NAVBAR */
+nav{
+    background:#2f2f2f;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+/* HERO SECTION */
+.hero{
+    height:500px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+                url("hero.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+    color:white;
+}
+
+.hero-text h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    width:600px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:#4a8ef2;
+    padding:12px 25px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+}
+
+/* ABOUT */
+.about{
+    display:flex;
+    padding:60px;
+    background:#f2f2f2;
+}
+
+.about-img img{
+    width:300px;
+}
+
+.about-text{
+    margin-left:60px;
+}
+
+.about-text p{
+    margin-bottom:20px;
+}
+
+/* SKILLS */
+.skills{
+    padding:60px;
+    text-align:center;
+}
+
+.skill-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.skill-box div{
+    background:#4a8ef2;
+    color:white;
+    padding:15px 25px;
+    margin:10px;
+}
+
+/* PROJECTS */
+.projects{
+    padding:60px;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    width:60%;
+}
+
+/* CONTACT */
+.contact{
+    background:#1f1f1f;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
